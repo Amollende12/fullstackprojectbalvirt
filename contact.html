@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balvirt IT Solutions | Get In touch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/chatbot.css">
+    <link rel="shortcut icon" href="images/logo1.png" type="image/jpg">
+
+    <style>
+        
+        
+.loader {
+  display: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.countdown {
+  font-size: 24px;
+  font-weight: bold;
+  animation: none;
+}
+ 
+
+    </style>
+</head>
+<!-- Navigation Bar - CSS removed as requested -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo-section">
+            <!-- Balvirt Logo - Tumhara original logo yaha lagega -->
+            <img src="images/logo1.png" alt="Balvirt Logo" class="logo-img">
+            <!-- Text comment out kar diya hai, sirf logo dikhega -->
+        </div>
+
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a href="services.html" class="nav-link">
+                    Services <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="services.html#implementation">NetSuite Implementation</a>
+                    <a href="services.html#customization">NetSuite Customization</a>
+                    <a href="services.html#optimization">NetSuite Optimization</a>
+                    <a href="services.html#integration">NetSuite Integration</a>
+                    <a href="services.html#support">NetSuite Support</a>
+                    <a href="services.html#data-migration">NetSuite Data Migration</a>
+                    <a href="services.html#app-development">Application Development</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a href="industries.html" class="nav-link">
+                    Industries <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="industries.html#manufacturing">Manufacturing</a>
+                    <a href="industries.html#retail">Retail & eCommerce</a>
+                    <a href="industries.html#wholesale">Wholesale Distribution</a>
+                    <a href="industries.html#automotive">Automotive DMS</a>
+                    <a href="industries.html#ecommerce">E-commerce</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a href="technology.html" class="nav-link">
+                    Technology<i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="technology.html#netsuite">NetSuite</a>
+                    <a href="technology.html#celigo">Celigo</a>
+                    <a href="technology.html#integration">Integration</a>
+                    <a href="technology.html#android">Android App Development</a>
+                    <a href="technology.html#website">Website Development</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a href="why-us.html" class="nav-link">
+                    Why-us<i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="why-us.html#team">Experienced Team</a>
+                    <a href="why-us.html#solutions">Tailored Solutions</a>
+                    <a href="why-us.html#support">End-to-End Support</a>
+                    <a href="why-us.html#track-record">Proven Track Record</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a href="carrers.html" class="nav-link">
+                    Careers <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="carrers.html#freshers">Opportunities for Freshers</a>
+                    <a href="carrers.html#internships">Internship Programs</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a href="about.html" class="nav-link">
+                    About<i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="about.html#who-we-are">Who We Are</a>
+                    <a href="about.html#mission">Mission & Vision</a>
+                    <a href="about.html#values">Core Values</a>
+                      <a href="about.html#events">Events</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a href="insights.html" class="nav-link">
+                    Insights <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="insights.html#youtube"><i class="fab fa-youtube"></i> YouTube Videos</a>
+                    <a href="insights.html#achievements"><i class="fas fa-trophy"></i> Achievements</a>
+                    <a href="insights.html#webinars"><i class="fas fa-chalkboard-teacher"></i> Webinars</a>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a href="contact.html" class="contact-btn">Contact</a>
+            </li>
+        </ul>
+
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <h1 style="margin-top: 120px;text-align: center;color: navy;">Get In Touch</h1>
+
+    <div class="balvirt-container">
+        <section class="balvirt-contact-section">
+            <!-- Contact Form -->
+            <div class="balvirt-contact-form-box">
+                <h3 class="balvirt-section-title"> <b><span style='color:#0074D9;'> Say something amazing — we’re
+                            listening</b></span></h3>
+
+                <!-- Contact Form -->
+               <!-- Contact Form -->
+<form id="contactForm" class="balvirt-contact-form" novalidate>
+
+  <input type="text" name="name" placeholder="Your Name" class="balvirt-input" required>
+  <input type="email" name="email" placeholder="Your Email" class="balvirt-input" required>
+  <input type="text" name="phone" placeholder="Phone Number" class="balvirt-input" required>
+  <textarea name="message" rows="4" placeholder="Your Message" class="balvirt-textarea" required></textarea>
+
+  <button type="submit" class="balvirt-btn balvirt-submit-btn">Send Message</button>
+
+  <div class="loader" id="loader">
+    <div class="countdown" id="countdown">15</div>
+  </div>
+
+  <p id="successMsg"></p>
+</form>
+
+
+
+ 
+                 
+            </div>
+
+            <!-- Contact Info -->
+            <div class="balvirt-contact-info-box">
+                <h3 class="balvirt-section-title"><span style='color:#0074D9;'> Get in touch through the details
+                        below.</span></h3>
+                <p class="balvirt-contact-info-item"><b>Address:</b> Hirai Estate, Adarshnagar, Ghulewadi Tal-Sangamner,
+                    Dist-Ahilyanagar, Pin-422605</p>
+                <p class="balvirt-contact-info-item"><b>Email:</b> <a href="mailto:contact@balvirt.com"
+                        class="balvirt-contact-link">contact@balvirt.com</a></p>
+                <p class="balvirt-contact-info-item"><b>Phone:</b> +91 9665521708</p>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.123456789!2d74.1753771!3d19.612716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdd010045ac2eb1%3A0xb295b09394e63341!2sHirai%20Estate!5e0!3m2!1sen!2sin!4v1695980000000!5m2!1sen!2sin"
+                    width="100%" height="200" class="balvirt-map" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </section>
+    </div>
+
+  
+    <!-- Footer
+ Footer Section -->
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-content">
+                    <!-- Company Info -->
+                    <div class="footer-section">
+                        <div class="footer-logo">
+                            <img src="images/logo1.jpg" alt="Balvirt Logo">
+                            <!-- <span class="logo-text">Bal<span class="virt">virt</span>.com</span> -->
+                        </div>
+                        <p class="footer-desc">Your trusted partner for NetSuite ERP solutions and digital
+                            transformation services. We help businesses achieve operational excellence through
+                            innovative technology solutions.</p>
+                        <div id="logo-of-fotter">
+                            <span id="linkedin">
+                                <a href="https://www.linkedin.com/company/balasaheb-it-solution/posts/?feedView=all"
+                                    class="social-link" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </span>
+
+                            <span id="youtube">
+                                <a href="https://www.youtube.com/@BalasahebITSolution" class="social-link"
+                                    target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="footer-section">
+                        <h3 class="footer-title">Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                            <li><a href="services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+                            <li><a href="industries.html"><i class="fas fa-chevron-right"></i> Industries</a></li>
+                            <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Services -->
+                    <div class="footer-section">
+                        <h3 class="footer-title">Our Services</h3>
+                        <ul class="footer-links">
+                            <li><a href="services.html#implementation"><i class="fas fa-chevron-right"></i> NetSuite
+                                    Implementation</a></li>
+                            <li><a href="services.html#customization"><i class="fas fa-chevron-right"></i> NetSuite
+                                    Customization</a></li>
+                            <li><a href="services.html#integration"><i class="fas fa-chevron-right"></i> NetSuite
+                                    Integration</a></li>
+                            <li><a href="services.html#support"><i class="fas fa-chevron-right"></i> NetSuite
+                                    Support</a></li>
+                            <li><a href="services.html#app-development"><i class="fas fa-chevron-right"></i> App
+                                    Development</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="footer-section">
+                        <h3 class="footer-title">Contact Info</h3>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <a href="https://www.google.com/maps?q=Hirai+Estate,+AadarshNagar,+Ghulewadi,+Tal-Sangamner,+Dist-Ahilyanagar,+Pin-422605"
+                                        target="_blank" style="text-decoration: none; color: inherit;">
+                                        <span>Hirai Estate, Aadarshnagar, Ghulewadi</span><br>
+                                        <span>Tal-Sangamner,Dist-Ahilyanagar,Pin-422605</span>
+                                    </a>
+                                </div>
+
+
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <span><a href="tel:+919665521708"
+                                            style="text-decoration: underline; color: inherit;">+91
+                                            9665521708</a></span>
+
+
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <span><a href="mailto:contact@balvirt.com"
+                                            style="text-decoration: underline; color: inherit;">contact@balvirt.com</a></span>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="footer-section">
+                    <h3 class="footer-title" style="font-size: larger; " id="gold">Newsletter</h3>
+                    <p class="newsletter-desc" style="font-size: larger; color: white;">
+                        Subscribe to our newsletter for the latest updates and insights.
+                    </p>
+
+                    <form method="POST" action="php/newsletter.php" class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" name="email" placeholder="Enter your email"
+                                style="font-size: larger; color: white;" required>
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+
+
+
+
+
+
+                    <!-- Footer Bottom -->
+                    <div class="footer-bottom">
+                        <div class="container">
+                            <div class="footer-bottom-content">
+
+
+
+                            </div>
+                            <p id="footer" style="text-align: center;">&copy; 2025 Balvirt </p>
+                        </div>
+                    </div>
+
+
+                    <!-- Scroll to Top Button -->
+                    <button class="scroll-to-top">
+                        <i class="fas fa-chevron-up"></i>
+                    </button>
+                        
+ <div class="balvirt-chatbot-icon">
+    <i class="fas fa-robot"></i>
+    <span class="balvirt-chatbot-dot"></span>
+</div>
+
+<div class="balvirt-chatbot-box balvirt-chatbot-hidden">
+    <div class="balvirt-chatbot-header">
+        <h3>Balvirt Assistant</h3>
+        <button class="balvirt-chatbot-close">×</button>
+    </div>
+
+    <!-- Chatbot Navigation Tabs -->
+    <div class="balvirt-chatbot-nav">
+        <button class="balvirt-chatbot-tab balvirt-chatbot-active" data-section="home">Home</button>
+        <button class="balvirt-chatbot-tab" data-section="services">Services</button>
+        <button class="balvirt-chatbot-tab" data-section="industries">Industries</button>
+        <button class="balvirt-chatbot-tab" data-section="technology">Tech</button>
+        <button class="balvirt-chatbot-tab" data-section="careers">Careers</button>
+        <button class="balvirt-chatbot-tab" data-section="about">About</button>
+        <button class="balvirt-chatbot-tab" data-section="contact">Contact</button>
+    </div>
+
+    <!-- Chat Messages Area -->
+    <div class="balvirt-chatbot-messages">
+        <div class="balvirt-chatbot-message balvirt-chatbot-bot-message">
+            <div class="balvirt-chatbot-content">
+                <p>Hello! 👋 I'm Balvirt Assistant. Select a category above to explore our services and solutions.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Typing Indicator -->
+    <div class="balvirt-chatbot-typing balvirt-chatbot-hidden">
+        <div class="balvirt-chatbot-dots">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <!-- Chat Input -->
+    <div class="balvirt-chatbot-input-container">
+        <input type="text" class="balvirt-chatbot-input" placeholder="Type your message here...">
+        <button class="balvirt-chatbot-send">
+            <i class="fas fa-paper-plane"></i>
+        </button>
+    </div>
+</div>
+
+    <script src="js/chatbot.js"></script>
+                     <script>
+const form = document.getElementById('contactForm');
+const loader = document.getElementById('loader');
+const successMsg = document.getElementById('successMsg');
+const countdownEl = document.getElementById('countdown');
+const nameInput = form.querySelector('input[name="name"]');
+
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+
+  loader.style.display = 'block';
+  successMsg.style.display = 'none';
+
+  let count = 15;
+  let stoppedEarly = false;
+
+  const colorMap = [
+    "#ff0000", "#ff3b00", "#ff5e00", "#ff7f00", "#ffa200",
+    "#ffbf00", "#e3d400", "#c6e300", "#8de300", "#5fe300",
+    "#37e300", "#1fe34f", "#0ee380", "#09e3b0", "#00e3d4"
+  ];
+
+  countdownEl.textContent = count;
+  countdownEl.style.color = colorMap[0];
+
+  const timer = setInterval(() => {
+    if (!stoppedEarly) {
+      count--;
+      if (count > 0) {
+        countdownEl.textContent = count;
+        countdownEl.style.color = colorMap[15 - count];
+      } else {
+        clearInterval(timer);
+      }
+    }
+  }, 1000);
+
+  const formData = new FormData(form);
+
+  try {
+    const response = await fetch('php/contact.php', {
+      method: 'POST',
+      body: formData
+    });
+
+    const result = await response.text();
+    console.log("Server Response:", result);
+
+    stoppedEarly = true;
+    clearInterval(timer);
+    loader.style.display = 'none';
+
+    const username = nameInput.value.trim() || "User";
+    if (result.trim().toLowerCase() === "success") {
+      successMsg.innerHTML = `✅ Thank you, <span style="color:#ffbf00;">${username}</span>! Your message has been sent successfully.`;
+      successMsg.style.color = "#28a745";
+    } else {
+      successMsg.innerHTML = "❌ Failed to send message. Try again.";
+      successMsg.style.color = "red";
+    }
+
+    successMsg.style.display = 'block';
+    form.reset();
+
+  } catch (error) {
+    stoppedEarly = true;
+    clearInterval(timer);
+    loader.style.display = 'none';
+    successMsg.style.display = 'block';
+    successMsg.style.color = 'red';
+    successMsg.textContent = "❌ Network error. Please try again.";
+    console.error("Error:", error);
+  }
+});
+</script>
+
+                    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                    <script src="script.js"></script>
+                    <script src="js/newsletter.js"></script>
+                    
+</body>
+
+</html>
